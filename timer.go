@@ -1,4 +1,4 @@
-package timer
+package go_timer
 
 import "time"
 
