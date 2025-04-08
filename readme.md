@@ -1,6 +1,6 @@
 # Simple timer for GO and TinyGO
 
-Example
+## Example
 ```go
 //Create timer and reset it
 var myTimer = Timer{}
@@ -19,4 +19,15 @@ if myTimer.Check(time.Second * 2) {
     //do something
     myTimer.Reset()
 }
+```
+
+## Install 
+
+```
+go get github.com/dufguix/go_timer
+
+import (
+	"time"
+	timer "github.com/dufguix/go_timer"
+)
 ```
